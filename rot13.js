@@ -6,8 +6,7 @@ function rot13(str) {
         return a.charCodeAt(0);
       } return (a.charCodeAt(0) + 13 - 65) % 26 + 65
     });
-    let result = translate.map(a => String.fromCharCode(a)).join("")
-    console.log(result)
+    let result = translate.map(a => String.fromCharCode(a)).join("");
     return result;
   
   }
